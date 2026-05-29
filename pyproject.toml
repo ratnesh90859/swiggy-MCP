@@ -1,0 +1,13 @@
+[project]
+name = "swiggy"
+version = "0.1.0"
+description = "Swiggy Autonomous Commerce Agent"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.136.1",
+    "google-adk>=1.31.1",
+    "mcp>=1.27.0",
+    "pydantic>=2.13.3",
+    "python-dotenv>=1.2.2",
+    "uvicorn>=0.46.0",
+]
